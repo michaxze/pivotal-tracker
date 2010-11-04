@@ -5,7 +5,7 @@ module PivotalTracker
       attr_writer :use_ssl, :token
 
       def use_ssl
-        @use_ssl || false
+        @use_ssl || true
       end
 
       def token(username, password, method='post')
